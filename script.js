@@ -6,62 +6,62 @@
 */
 const family = [
   {
-    id: "F-00", group: "parent", name: "Father's Name", role: "THE PATRIARCH",
-    subtitle: "Head of the Family", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=85",
-    source: "https://www.pinterest.com/", age: "—", position: "Family Head",
+    id: "Father", group: "parent", name: "Laksamana TNI (Purn.) Wiratama Suryanegara, S.H., M.H.", role: "THE PATRIARCH",
+    subtitle: "Head of the Family", image: "https://i.pinimg.com/736x/c4/04/6a/c4046a97018b18a3af3f334e51b69017.jpg",
+    source: "https://www.pinterest.com/", age: "65", position: "Family Head",
     bio: "Write the father's biography here. Add his background, personality, influence, and the secrets that shaped this family."
   },
   {
-    id: "F-01", group: "parent", name: "Mother's Name", role: "THE MATRIARCH",
-    subtitle: "Keeper of the House", image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85",
-    source: "https://www.pinterest.com/", age: "—", position: "Family Matriarch",
+    id: "Mother", group: "parent", name: "dr. Pramesthi Larasati, Sp.F. M.si", role: "THE MATRIARCH",
+    subtitle: "Keeper of the House", image: "https://i.pinimg.com/736x/d7/ec/9b/d7ec9b5b5a645c0f72f096b8ca8618b5.jpg",
+    source: "https://www.pinterest.com/", age: "61", position: "Family Matriarch",
     bio: "Write the mother's biography here. Describe her history, values, and the role she plays in holding the family together."
   },
   {
-    id: "F-02", group: "child", name: "First Child", role: "THE FIRSTBORN",
-    subtitle: "Eldest Son", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85",
-    source: "https://www.pinterest.com/", age: "—", position: "First Son",
-    bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
-  },
-  {
-    id: "F-03", group: "child", name: "Second Child", role: "THE HEIR",
-    subtitle: "Second Son", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=900&q=85",
-    source: "https://www.pinterest.com/", age: "—", position: "Second Son",
-    bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
-  },
-  {
-    id: "F-04", group: "child", name: "Third Child", role: "THE STRATEGIST",
-    subtitle: "Third Son", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=85",
-    source: "https://www.pinterest.com/", age: "—", position: "Third Son",
-    bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
-  },
-  {
-    id: "F-05", group: "child", name: "Fourth Child", role: "THE YOUNGEST SON",
-    subtitle: "Youngest Son", image: "https://images.unsplash.com/photo-1504596377452-44c9f2b7f2f4?auto=format&fit=crop&w=900&q=85",
-    source: "https://www.pinterest.com/", age: "—", position: "Fourth Son",
-    bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
-  },
-  {
-    id: "F-06", group: "child", name: "Fifth Child", role: "THE ELDEST DAUGHTER",
-    subtitle: "First Daughter", image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=85",
+    id: "1st", group: "child", name: "Ishtar D. Prajñāpāramithā", role: "The Diva",
+    subtitle: "Eldest Daughter", image: "https://i.pinimg.com/736x/25/16/cb/2516cb0f2473fa50f2e106f299cb9d47.jpg",
     source: "https://www.pinterest.com/", age: "—", position: "First Daughter",
     bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
   },
   {
-    id: "F-07", group: "child", name: "Sixth Child", role: "THE DIPLOMAT",
-    subtitle: "Second Daughter", image: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=85",
+    id: "2nd", group: "child", name: "Reviano G. Prajñāpāramartā", role: "RUTA",
+    subtitle: "Second Son", image: "https://i.pinimg.com/736x/ed/0a/e8/ed0ae880d34814a054089f964b454b1d.jpg",
+    source: "https://www.pinterest.com/", age: "—", position: "Second Son",
+    bio: "At 35 years old, Ruta is a man defined by contradictions—a calculated shadow in the criminal underworld, yet a devoted and gentle protector at home. Born into a large strict household, his life was shaped from an early age by discipline and authority. His father, a retired military veteran, instilled in his children fierce loyalty and obedience, but also drew them into a dangerous world of underground, illegal business operations."
+  },
+  {
+    id: "3rd", group: "child", name: "Deano Prajñāpāramartā", role: "Deano",
+    subtitle: "Third Son", image: "https://i.pinimg.com/736x/07/13/5c/07135c8bc6585a8eb35e8eb578f97d8d.jpg",
+    source: "https://www.pinterest.com/", age: "—", position: "Third Son",
+    bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
+  },
+  {
+    id: "4th", group: "child", name: "Mero Deerhoven Prajñāpāramartā", role: "MATA",
+    subtitle: "Fourth Son", image: "https://i.pinimg.com/736x/3e/e0/8d/3ee08d5cc0ae4474945e793453d9a344.jpg",
+    source: "https://www.pinterest.com/", age: "—", position: "Fourth Son",
+    bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
+  },
+  {
+    id: "5th", group: "child", name: "Clara Prajñāpāramithā", role: "Bloom",
+    subtitle: "fifth Daughter", image: "https://i.pinimg.com/736x/b1/3c/a9/b13ca94199c71b12d6c04497772443f4.jpg",
+    source: "https://www.pinterest.com/", age: "—", position: "Fifth Daughter",
+    bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
+  },
+  {
+    id: "6th", group: "child", name: "Priscilla Prajñāpāramithā", role: "Cilla",
+    subtitle: "Sixth Daughter", image: "https://i.pinimg.com/736x/cf/c8/26/cfc8267bbb1beedccd4471c8bafe329a.jpg",
     source: "https://www.pinterest.com/", age: "—", position: "Second Daughter",
     bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
   },
   {
-    id: "F-08", group: "child", name: "Seventh Child", role: "THE ENIGMA",
-    subtitle: "Third Daughter", image: "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85",
+    id: "7th", group: "child", name: "Birawa Sembada Prajñāpāramartā", role: "AWA",
+    subtitle: "Seventh Son", image: "https://i.pinimg.com/736x/69/bc/dd/69bcddf1b57490c67ce3a00b98a1724b.jpg",
     source: "https://www.pinterest.com/", age: "—", position: "Third Daughter",
     bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
   },
   {
-    id: "F-09", group: "child", name: "Eighth Child", role: "THE YOUNGEST",
-    subtitle: "Youngest Daughter", image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=85",
+    id: "8th", group: "child", name: "Kanaᧉra Prajñāpāramithā", role: "Edith",
+    subtitle: "Eight Daughterr", image: "https://i.pinimg.com/736x/df/40/0a/df400a735de27dd94e4de311879327b7.jpg",
     source: "https://www.pinterest.com/", age: "—", position: "Fourth Daughter",
     bio: "Write this child's biography here. Include their personality, occupation, family role, and personal history."
   }
