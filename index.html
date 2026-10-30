@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090909" />
+  <title>House Archive — Family Records</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Family Archive home"><span class="brand-mark">H</span><span>HOUSE <b>ARCHIVE</b></span></a>
+    <nav><a href="#family">THE FAMILY</a><a href="#legacy">THE LEGACY</a></nav>
+    <span class="classified">PRIVATE RECORDS <i>●</i></span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow"><span></span> EST. 19— &nbsp; / &nbsp; FAMILY DOSSIER</p>
+      <h1>A legacy written<br>in <em>gold.</em></h1>
+      <p class="hero-copy">Every name carries a history. Every face conceals a story.<br>Welcome to the family archive.</p>
+      <a class="discover" href="#family">EXPLORE THE ARCHIVE <span>↓</span></a>
+      <div class="hero-seal">F<br><small>✦</small></div>
+    </section>
+
+    <section class="family-section" id="family">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / THE BLOODLINE</p><h2>The Family <em>Portraits</em></h2></div>
+        <p class="section-note">Select a portrait to open<br>their personal record.</p>
+      </div>
+      <div class="parents-label"><span>THE FOUNDERS</span><i></i></div>
+      <div class="family-grid parents-grid" id="parents-grid"></div>
+      <div class="children-label"><span>THE NEXT GENERATION</span><i></i><small>08 RECORDS</small></div>
+      <div class="family-grid children-grid" id="children-grid"></div>
+    </section>
+
+    <section class="legacy" id="legacy">
+      <p class="eyebrow">02 / THE INHERITANCE</p>
+      <blockquote>“Blood makes us family.<br><em>What we protect makes us one.</em>”</blockquote>
+      <p class="legacy-foot">FAMILY ARCHIVE &nbsp; • &nbsp; ALL RECORDS RESERVED</p>
+    </section>
+  </main>
+
+  <footer><span>HOUSE ARCHIVE</span><span>CONFIDENTIAL • FAMILY EYES ONLY</span><span>© <span id="year"></span></span></footer>
+
+  <div class="modal" id="profile-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <article class="profile-panel" role="dialog" aria-modal="true" aria-labelledby="profile-name">
+      <button class="close-modal" aria-label="Close profile" data-close>×</button>
+      <div class="profile-image-wrap"><img id="profile-image" src="" alt=""><span id="profile-index">RECORD 01</span></div>
+      <div class="profile-details">
+        <p class="eyebrow" id="profile-role">FAMILY RECORD</p>
+        <h2 id="profile-name">Name Surname</h2>
+        <p class="profile-subtitle" id="profile-subtitle"></p>
+        <div class="gold-rule"></div>
+        <p class="bio" id="profile-bio"></p>
+        <dl id="profile-facts"></dl>
+        <a class="pinterest-link" id="profile-source" href="#" target="_blank" rel="noreferrer">VIEW IMAGE SOURCE ↗</a>
+      </div>
+    </article>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
